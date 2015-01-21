@@ -26,3 +26,5 @@ Learning meteor with Kevin
   - show collections
   - db.oplog.rs.find()
   - db.oplog.rs.find().pretty()
+  - db.pictures.find()
+  - db.pictures.find().length()
