@@ -36,3 +36,7 @@ Learning meteor with Kevin
   - git remote -v
   - git pull kevin
   - git pull kevin patch-1
+
+### 7 Useful shortcut of Mac
+* alt + cmd + i  查看调试信息
+* alt + cmd + u  查看源代码
