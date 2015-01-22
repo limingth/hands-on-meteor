@@ -28,3 +28,6 @@ Learning meteor with Kevin
   - db.oplog.rs.find().pretty()
   - db.pictures.find()
   - db.pictures.find().length()
+
+### 6 Git Basics 
+* [Git video from codeschool](http://gitreal.codeschool.com/levels/1)
