@@ -31,3 +31,8 @@ Learning meteor with Kevin
 
 ### 6 Git Basics 
 * [Git video from codeschool](http://gitreal.codeschool.com/levels/1)
+* git pull from Bryan and Kevin
+  - git remote add kevin https://github.com/kevingzhang/pikpak
+  - git remote -v
+  - git pull kevin
+  - git pull kevin patch-1
