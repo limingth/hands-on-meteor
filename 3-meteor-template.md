@@ -105,6 +105,18 @@
       });
     });
     
-#### listsShow.html
+#### lists-Show.html
     Lists.findOne()
     Object {_id: "ZMSREPRKvTchnvwnT", name: "Meteor Principles", incompleteCount: 7}
+    
+    {{name}} --> List B
+    
+    limingth@gmail ~/Github/Meteor.js/todos$ cat client/templates/lists-show.js 
+    Template.listsShow.helpers({
+      editing: function() {
+        return Session.get(EDITING_KEY);
+      },
+      
+* Session 本地内存变量，例如 EDITING_KEY
+
+
