@@ -71,3 +71,40 @@
       their latest versions. If your packages cannot be updated further, try typing
       `meteor add <package>@<newVersion>` to see more information.
     limingth@gmail ~/Github/Meteor.js/todos$   
+      
+#### Route process
+    Router.map(function() {
+      this.route('join');
+      this.route('signin');
+    
+      this.route('listsShow', {
+        path: '/lists/:_id',
+        // subscribe to todos before the page is rendered but don't wait on the
+        // subscription, we'll just render the items as they arrive
+        onBeforeAction: function () {
+          this.todosHandle = Meteor.subscribe('todos', this.params._id);
+    
+          if (this.ready()) {
+            // Handle for launch screen defined in app-body.js
+            dataReadyHold.release();
+          }
+        },
+        data: function () {
+          return Lists.findOne(this.params._id);
+        },
+        action: function () {
+          this.render();
+        }
+      });
+    
+      this.route('home', {
+        path: '/',
+        action: function() {
+          Router.go('listsShow', Lists.findOne());
+        }
+      });
+    });
+    
+#### listsShow.html
+    Lists.findOne()
+    Object {_id: "ZMSREPRKvTchnvwnT", name: "Meteor Principles", incompleteCount: 7}
