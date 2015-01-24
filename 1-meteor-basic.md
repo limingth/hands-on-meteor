@@ -573,41 +573,41 @@ http://docs.mongodb.org/manual/
     
     33 directories, 331 files
     limingth@gmail ~/Github/Meteor.js/todos$ 
-        
-    #### code tree in .meteor 
-        limingth@gmail ~/Github/Meteor.js/todos$ tree .meteor/ -a -L 4
-        .meteor/
-        ├── .finished-upgraders
-        ├── .gitignore
-        ├── .id
-        ├── local
-        │   ├── build
-        │   │   ├── README
-        │   │   ├── main.js
-        │   │   ├── programs
-        │   │   │   ├── server
-        │   │   │   ├── web.browser
-        │   │   │   └── web.cordova
-        │   │   ├── server
-        │   │   │   └── .bundle_version.txt
-        │   │   └── star.json
-        │   ├── db
-        │   │   ├── METEOR-PORT
-        │   │   ├── journal
-        │   │   │   └── j._0
-        │   │   ├── local.0
-        │   │   ├── local.1
-        │   │   ├── local.ns
-        │   │   ├── meteor.0
-        │   │   ├── meteor.1
-        │   │   ├── meteor.ns
-        │   │   └── mongod.lock
-        │   ├── isopacks
-        │   └── shell.sock
-        ├── packages
-        ├── platforms
-        ├── release
-        └── versions
-        
-        10 directories, 21 files
+    
+#### code tree in .meteor 
+    limingth@gmail ~/Github/Meteor.js/todos$ tree .meteor/ -a -L 4
+    .meteor/
+    ├── .finished-upgraders
+    ├── .gitignore
+    ├── .id
+    ├── local
+    │   ├── build
+    │   │   ├── README
+    │   │   ├── main.js
+    │   │   ├── programs
+    │   │   │   ├── server
+    │   │   │   ├── web.browser
+    │   │   │   └── web.cordova
+    │   │   ├── server
+    │   │   │   └── .bundle_version.txt
+    │   │   └── star.json
+    │   ├── db
+    │   │   ├── METEOR-PORT
+    │   │   ├── journal
+    │   │   │   └── j._0
+    │   │   ├── local.0
+    │   │   ├── local.1
+    │   │   ├── local.ns
+    │   │   ├── meteor.0
+    │   │   ├── meteor.1
+    │   │   ├── meteor.ns
+    │   │   └── mongod.lock
+    │   ├── isopacks
+    │   └── shell.sock
+    ├── packages
+    ├── platforms
+    ├── release
+    └── versions
+    
+    10 directories, 21 files
 
