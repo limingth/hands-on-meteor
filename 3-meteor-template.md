@@ -29,5 +29,26 @@
     Host:www.weibo.com
     
 ### Template
-https://docs.meteor.com/#/full/templates_api
+#### https://docs.meteor.com/#/full/templates_api
+      
+    limingth@gmail ~/Github/Meteor.js/todos$ cat lib/router.js 
+    Router.configure({
+      // we use the  appBody template to define the layout for the entire app
+      layoutTemplate: 'appBody',
+    
+      // the appNotFound template is used for unknown routes and missing lists
+      notFoundTemplate: 'appNotFound',
+    
+      // show the appLoading template whilst the subscriptions below load their data
+      loadingTemplate: 'appLoading',
+    
+      // wait on the following subscriptions before rendering the page to ensure
+      // the data it's expecting is present
+      waitOn: function() {
+        return [
+          Meteor.subscribe('publicLists'),
+          Meteor.subscribe('privateLists')
+        ];
+      }
+    });
 
