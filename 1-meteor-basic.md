@@ -195,3 +195,11 @@ http://docs.mongodb.org/manual/
       console.log ("I am client")
     }
     
+#### Hot Code Push
+* 后端 js -> Node.js 
+* 前端 webbrowser 也会有一个js在实时监控代码变化
+* 手机 cordova (以前的phoneGap)
+
+#### famo.us
+* https://www.meteor.com/blog/2014/06/03/meteor-famous-mobile
+
