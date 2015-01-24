@@ -203,3 +203,26 @@ http://docs.mongodb.org/manual/
 #### famo.us
 * https://www.meteor.com/blog/2014/06/03/meteor-famous-mobile
 
+#### code tree
+    limingth@gmail ~/Github/Meteor.js/todos$ ls .meteor/local/build/programs/server/
+    app			config.json		package.json		start.sh
+    assets			node_modules		packages
+    boot-utils.js		npm			program.json
+    boot.js			npm-shrinkwrap.json	shell.js
+    limingth@gmail ~/Github/Meteor.js/todos$ ls .meteor/local/build/programs/web.browser/
+    441446561166576bf5533950a789ecac8d1ce87f.css
+    441446561166576bf5533950a789ecac8d1ce87f.css.map
+    app
+    head.html
+    packages
+    program.json
+    limingth@gmail ~/Github/Meteor.js/todos$ ls .meteor/local/build/programs/web.cordova/
+    441446561166576bf5533950a789ecac8d1ce87f.css
+    441446561166576bf5533950a789ecac8d1ce87f.css.map
+    app
+    head.html
+    packages
+    program.json
+    limingth@gmail ~/Github/Meteor.js/todos$ 
+    
+
