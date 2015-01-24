@@ -154,3 +154,17 @@
     
     15 directories, 88 files
     limingth@gmail ~/Github/Meteor.js/todos$ 
+
+#### 
+* JavaScript 是很"牛"的"烂"语言
+* Lists = new Meteor.Collection('lists')  默认是全局的
+* var Lists = new Meteor.Collection('lists')  才是局部的
+
+#### MongoDB 
+http://docs.mongodb.org/manual/
+
+    > Lists.find()
+    LocalCollection.Cursor {collection: LocalCollection, sorter: null, _selectorId: undefined, matcher: Minimongo.Matcher, skip: undefined…}
+    
+    > Lists.find().fetch()
+    [Object_id: "ZMSREPRKvTchnvwnT"incompleteCount: 7name: "Meteor Principles"__proto__: Object__defineGetter__: function __defineGetter__() { [native code] }__defineSetter__: function __defineSetter__() { [native code] }__lookupGetter__: function __lookupGetter__() { [native code] }__lookupSetter__: function __lookupSetter__() { [native code] }constructor: function Object() { [native code] }hasOwnProperty: function hasOwnProperty() { [native code] }isPrototypeOf: function isPrototypeOf() { [native code] }propertyIsEnumerable: function propertyIsEnumerable() { [native code] }toLocaleString: function toLocaleString() { [native code] }toString: function toString() { [native code] }valueOf: function valueOf() { [native code] }get __proto__: function __proto__() { [native code] }set __proto__: function __proto__() { [native code] }
