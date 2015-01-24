@@ -118,5 +118,6 @@
       },
       
 * Session 本地内存变量，例如 EDITING_KEY
+* Session.get(EDITING\_KEY) 在编译时会发现“EDITING\_KEY”是一个依赖源，则会把editing加入reactive链
 
 
