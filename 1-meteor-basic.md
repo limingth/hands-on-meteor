@@ -1,7 +1,10 @@
 
 ## Chapter 1
 ### 1 Seven Principles
-* [Meteor Seven Principles](https://docs.meteor.com/#/full/severnprinciples)
+* [Meteor Seven Principle
+
+#### meteor roadmap
+https://trello.com/b/hjBDflxp/meteor-roadmap
 
 ### 2 Web Dev History
 ####Old time
