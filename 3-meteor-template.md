@@ -52,3 +52,22 @@
       }
     });
 
+#### example router join
+    this.route('join');
+    
+    imingth@gmail ~/Github/Meteor.js/todos$ find . -name auth-join.html
+    ./client/templates/auth-join.html
+
+#### meteor list
+    limingth@gmail ~/Github/Meteor.js/todos$ meteor list
+    accounts-password  1.0.6  Password support for accounts
+    insecure           1.0.2  Allow all database writes by default
+    iron:router        0.9.4* Routing specifically designed for Meteor
+    less               1.0.12  The dynamic stylesheet language
+    meteor-platform    1.2.1  Include a standard set of Meteor packages in your app
+    
+                                                  
+    * New versions of these packages are available! Run 'meteor update' to try to update those packages to
+      their latest versions. If your packages cannot be updated further, try typing
+      `meteor add <package>@<newVersion>` to see more information.
+    limingth@gmail ~/Github/Meteor.js/todos$   
