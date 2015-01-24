@@ -1,6 +1,8 @@
 # hands-on-meteor
 Learning meteor with Kevin
 
+参考教材： [Discover Meteor 中文版](http://zh.discovermeteor.com/)
+
 ## Chapter 0
 ### 1 Basic intro to meteor
 * [what-is-meteor](https://www.eventedmind.com/classes/getting-started-with-meteor/meteor-what-is-meteor)
