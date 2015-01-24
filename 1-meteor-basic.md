@@ -168,3 +168,30 @@ http://docs.mongodb.org/manual/
     
     > Lists.find().fetch()
     [Object_id: "ZMSREPRKvTchnvwnT"incompleteCount: 7name: "Meteor Principles"__proto__: Object__defineGetter__: function __defineGetter__() { [native code] }__defineSetter__: function __defineSetter__() { [native code] }__lookupGetter__: function __lookupGetter__() { [native code] }__lookupSetter__: function __lookupSetter__() { [native code] }constructor: function Object() { [native code] }hasOwnProperty: function hasOwnProperty() { [native code] }isPrototypeOf: function isPrototypeOf() { [native code] }propertyIsEnumerable: function propertyIsEnumerable() { [native code] }toLocaleString: function toLocaleString() { [native code] }toString: function toString() { [native code] }valueOf: function valueOf() { [native code] }get __proto__: function __proto__() { [native code] }set __proto__: function __proto__() { [native code] }
+    
+### 在 client 和 server 中都会执行
+    limingth@gmail ~/Github/Meteor.js/todos$ cat lib/collections.js 
+    Lists = new Meteor.Collection('lists');
+    
+    // Calculate a default name for a list in the form of 'List A'
+    Lists.defaultName = function() {
+      var nextLetter = 'A', nextName = 'List ' + nextLetter;
+      while (Lists.findOne({name: nextName})) {
+        // not going to be too smart here, can go past Z
+        nextLetter = String.fromCharCode(nextLetter.charCodeAt(0) + 1);
+        nextName = 'List ' + nextLetter;
+      }
+    
+      return nextName;
+    };
+    
+    Todos = new Meteor.Collection('todos');limingth@gmail ~/Github/Meteor.js/todos$ 
+    
+    if (Meteor.isServer) {
+      console.log ("I am server")
+    }
+    
+    if (Meteor.isClient) {
+      console.log ("I am client")
+    }
+    
