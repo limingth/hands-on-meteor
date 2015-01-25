@@ -178,3 +178,14 @@
 * http://docs.meteor.com/#/basic/defining-templates
 * http://jade-lang.com/
 * coffeescript + jade + less + robomongo
+
+#### meteor create --list
+    limingth@gmail ~/Github/Meteor.js/todos$ meteor create --list
+    Available examples:
+      clock                                       
+      leaderboard                                 
+      localmarket                                 
+      todos                                       
+                                                  
+    Create a project from an example with 'meteor create --example <name>'.
+    limingth@gmail ~/Github/Meteor.js/todos$  
