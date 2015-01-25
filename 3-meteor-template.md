@@ -126,3 +126,55 @@
     }
 
 * name 函数的返回值 会优先于 对象的.name 变量
+
+### event
+    Template.listsShow.events({
+      'click .js-cancel': function() {
+        Session.set(EDITING_KEY, false);
+      },
+      
+    'keydown input[type=text]': function(event) {
+      // ESC
+      if (27 === event.which) {
+        event.preventDefault();
+        $(event.target).blur();
+      }
+    },
+* click 是事件
+* .js-cancel 是 css selector 选择器
+* input 是一个 element
+
+#### client/templates/lists-show.html
+    {{#each todos this}}
+      {{> todosItem}}
+    {{else}}
+      <div class="wrapper-message">
+        <div class="title-message">No tasks here</div>
+        <div class="subtitle-message">Add new tasks using the field above</div>
+      </div>
+    {{/each}}
+
+#### client/templates/lists-show.js 
+    todos: function(listId) {
+      return Todos.find({listId: listId}, {sort: {createdAt : -1}});
+    }
+    
+#### client/templates/todos-item.html
+    limingth@gmail ~/Github/Meteor.js/todos$ cat client/templates/todos-item.html 
+    <template name="todosItem">
+      <div class="list-item {{checkedClass}} {{editingClass}}">
+        <label class="checkbox">
+          <input type="checkbox" checked="{{checked}}" name="checked">
+          <span class="checkbox-custom"></span>
+        </label>
+    
+        <input type="text" value="{{text}}" placeholder="Task name">
+        <a class="js-delete-item delete-item" href="#"><span class="icon-trash"></span></a>
+      </div>
+    </template>
+
+### Assignment
+* http://docs.meteor.com/#/basic/Mongo-Collection-find
+* http://docs.meteor.com/#/basic/defining-templates
+* http://jade-lang.com/
+* coffeescript + jade + less + robomongo
