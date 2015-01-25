@@ -179,7 +179,7 @@
 * http://jade-lang.com/
 * coffeescript + jade + less + robomongo
 
-#### meteor create --list
+#### 读懂 meteor create --list 的4个例子代码
     limingth@gmail ~/Github/Meteor.js/todos$ meteor create --list
     Available examples:
       clock                                       
