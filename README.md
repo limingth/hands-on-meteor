@@ -48,10 +48,14 @@ Learning meteor with Kevin
 * alt + cmd + u  查看源代码
 
 ### 8 Some repo from Github
-#### coffeescript-chat
+#### coffeescript-chat 聊天室
 * [Code] <https://github.com/tomblomfield/meteor-chat>
 * [Demo website] <http://coffeescript-chat.meteor.com/>
 
-#### meteor-bbs
+#### meteor-bbs 布告栏
 * [Code] <https://github.com/chuangbo/meteor-bbs>
 * [Demo website] <https://meteor-bbs.meteor.com>
+
+#### meteor-accounts-qq QQ账户登陆
+* [Code] <https://github.com/leonzhang1109/meteor-accounts-qq>
+
