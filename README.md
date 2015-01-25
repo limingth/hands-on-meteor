@@ -46,3 +46,12 @@ Learning meteor with Kevin
 ### 7 Useful shortcut of Mac
 * alt + cmd + i  查看调试信息
 * alt + cmd + u  查看源代码
+
+### 8 Some repo from Github
+#### coffeescript-chat
+* [Code] <https://github.com/tomblomfield/meteor-chat>
+* [Demo website] <http://coffeescript-chat.meteor.com/>
+
+#### meteor-bbs
+* [Code] <https://github.com/chuangbo/meteor-bbs>
+* [Demo website] <https://meteor-bbs.meteor.com>
