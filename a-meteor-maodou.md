@@ -72,6 +72,8 @@
 		url = https://github.com/limingth/meteor-maodou
 		fetch = +refs/heads/*:refs/remotes/origin/*
 
+* refer to https://developer.github.com/v3/repos/#create
+
 ##### Add all new files in this new repo
 	limingth@gmail ~/Github/Meteor.js/meteor-maodou$ git pull origin master
 	remote: Counting objects: 3, done.
