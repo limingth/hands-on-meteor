@@ -55,3 +55,5 @@
 #### meteor-accounts-qq QQ账户登陆
 * [Code] <https://github.com/leonzhang1109/meteor-accounts-qq>
 
+#### build-app-45-minutes-meteor Twitter账户登录
+* [code] <http://www.smashingmagazine.com/2013/06/13/build-app-45-minutes-meteor/>
