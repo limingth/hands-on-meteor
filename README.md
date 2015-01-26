@@ -7,5 +7,4 @@ Learning meteor with Kevin
 * [Chapter 1](1-meteor-basic.md)
 * [Chapter 2](2-meteor-framework.md)
 * [Chapter 3](3-meteor-template.md)
-
 * [Chapter A](a-meteor-maodou.md)
