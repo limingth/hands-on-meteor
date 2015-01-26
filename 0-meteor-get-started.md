@@ -53,6 +53,7 @@
 * [Demo website] <https://meteor-bbs.meteor.com>
 
 #### meteor-accounts-qq QQ账户登陆
+* [Code Verified] <https://github.com/yonggao/meteor-accounts-qq>  
 * [Code] <https://github.com/leonzhang1109/meteor-accounts-qq>
 
 #### build-app-45-minutes-meteor Twitter账户登录
