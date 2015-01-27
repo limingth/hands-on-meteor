@@ -48,6 +48,10 @@
 * [Code] <https://github.com/tomblomfield/meteor-chat>
 * [Demo website] <http://coffeescript-chat.meteor.com/>
 
+#### meteorchat-originate iOS版聊天室
+* [Code] <https://github.com/maxwellE/originate-ios-meteor-chat>
+* [Demo website] <http://meteorchat-originate.meteor.com/>
+
 #### meteor-bbs 布告栏
 * [Code] <https://github.com/chuangbo/meteor-bbs>
 * [Demo website] <https://meteor-bbs.meteor.com>
