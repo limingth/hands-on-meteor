@@ -16,7 +16,7 @@
 	Meteor.subscribe('posts');
 	
 
-### 2 filt the data
+### filt the data
 
 #### Only publish those not flagged
 	// On the server
@@ -40,7 +40,7 @@
 	  }
 	});
 
-#### 3 Publishing Full Collections
+#### Publishing Full Collections
 
 	Meteor.publish('allPosts', function(){
 	  return Posts.find();
@@ -59,8 +59,6 @@
 	    date: false
 	  }});
 	});
-
-
 
 
 
