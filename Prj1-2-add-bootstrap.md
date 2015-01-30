@@ -1,8 +1,6 @@
 
-## Chapter B 
-
-### 1 Add Bootstrap to maodou
-http://zh.discovermeteor.com/chapters/getting-started/
+### Step 2 Add Bootstrap to maodou
+* http://zh.discovermeteor.com/chapters/getting-started/
 
 #### meteor add mizzao:bootstrap-3
 	limingth@gmail ~/Github/Meteor.js/meteor-maodou$ meteor add mizzao:bootstrap-3

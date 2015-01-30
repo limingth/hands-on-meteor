@@ -7,4 +7,4 @@ Learning meteor with Kevin
 * [Chapter 1 : Meteor Basic](1-meteor-basic.md)
 * [Chapter 2 : Meteor Framework](2-meteor-framework.md)
 * [Chapter 3 : Meteor Template](3-meteor-template.md)
-* [Chapter A : Meteor Project of maodou](a-meteor-maodou.md)
+* [Hands-On Project 1 : Discover Meteor Project](Prj1-1-discover-meteor-hello.md)

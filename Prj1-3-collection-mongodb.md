@@ -1,8 +1,6 @@
 
-## Chapter C
-http://zh.discovermeteor.com/chapters/collections/
-
-### 1 Add Collection to maodou
+### Step 3 Add Collection to maodou
+* http://zh.discovermeteor.com/chapters/collections/
 
 #### vi posts.js
 	Posts = new Meteor.Collection('posts');
@@ -55,3 +53,18 @@ Posts will be both accessible by client and server
 #### a trick to clear all collections in db
 	limingth@gmail ~/Github/Meteor.js/meteor-maodou$ meteor reset
 	Project reset.  
+
+#### mongo db commands
+	> db.posts.insert({title: "A new post"});
+
+	> db.posts.find();
+	{ "_id": ObjectId(".."), "title" : "A new post"};
+
+#### browser console commands
+	❯ Posts.insert({
+	  title: 'Meteor Docs',
+	  author: 'Tom Coleman', 
+	  url: 'http://docs.meteor.com'
+	});	
+
+	❯ Posts.find().fetch();

@@ -1,7 +1,8 @@
 
-## Chapter A 
+## Project A - discover the meteor sample
 
-### 1 Build a helloworld with meteor
+### Step 1 Build a helloworld with meteor
+* http://zh.discovermeteor.com/chapters/getting-started/
 
 #### Create a meteor app named meteor-maodou 
 	limingth@gmail ~/Github/Meteor.js$ meteor create meteor-maodou
