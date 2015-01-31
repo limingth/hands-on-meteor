@@ -5,6 +5,7 @@ Learning meteor with Kevin
 * [Discover Meteor 中文版](http://zh.discovermeteor.com/)
 * [JavaScript: The Good Parts](http://it-ebooks.info/book/274/)
 * [Functional JavaScript](http://it-ebooks.info/book/2573/)
+* [Principles of Object-Oriented Programming in JavaScript](http://www.nczonline.net/blog/2012/12/18/now-available-principles-of-object-oriented-programming-in-javascript-beta/)
 
 目录
 * [Chapter 0 : Meteor Get started](0-meteor-get-started.md)

@@ -211,7 +211,7 @@
   ready()
   True if the server has marked the subscription as ready. A reactive data source.
 
-#### removed
+#### publish_removed
 * http://docs.meteor.com/#/full/publish_removed
 
 ### Assignment
