@@ -173,6 +173,47 @@
       </div>
     </template>
 
+#### 编程小技巧 不要用 get 而用 equals
+    vi todos/client/templates/todos-item.js
+    Session.equals(EDITING_KEY, this._id) && 'editing';
+
+* 作用是可以只在用到 editing 的时候，再进行渲染，而不是只要 session 的变量发生变化就都要进行渲染
+
+#### mongodb 数据库操作
+  Template.todosItem.events({
+    'change [type=checkbox]': function(event) {
+      var checked = $(event.target).is(':checked');
+      Todos.update(this._id, {$set: {checked: checked}});
+      Lists.update(this.listId, {$inc: {incompleteCount: checked ? -1 : 1}});
+    },
+
+### Template
+* http://docs.meteor.com/#/full/templates_api
+* http://docs.meteor.com/#/full/template_inst
+
+#### autorun()
+* http://docs.meteor.com/#/full/template_autorun
+
+#### template_dynamic
+* http://docs.meteor.com/#/full/template_dynamic
+
+#### # 的用法
+* https://github.com/meteoric/meteor-ionic/blob/master/GUIDE.md
+  - meteor:ionic
+  - 把 Template 内部的某些需要变化的地方，通过外部传递进来
+
+### subscribe
+  Meteor.subscribe returns a subscription handle, which is an object with the following methods:
+
+  stop()
+  Cancel the subscription. This will typically result in the server directing the client to remove the subscription's data from the client's cache.
+
+  ready()
+  True if the server has marked the subscription as ready. A reactive data source.
+
+#### removed
+* http://docs.meteor.com/#/full/publish_removed
+
 ### Assignment
 * http://docs.meteor.com/#/basic/Mongo-Collection-find
 * http://docs.meteor.com/#/basic/defining-templates
@@ -189,3 +230,4 @@
                                                   
     Create a project from an example with 'meteor create --example <name>'.
     limingth@gmail ~/Github/Meteor.js/todos$  
+
