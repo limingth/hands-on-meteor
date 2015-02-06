@@ -46,20 +46,45 @@
 
 ### 8 Some repo from Github
 #### coffeescript-chat 聊天室
+* [Demo] <http://coffeescript-chat.meteor.com/>
 * [Code] <https://github.com/tomblomfield/meteor-chat>
-* [Demo website] <http://coffeescript-chat.meteor.com/>
 
 #### meteorchat-originate iOS版聊天室
+* [Demo] <http://meteorchat-originate.meteor.com/>
 * [Code] <https://github.com/maxwellE/originate-ios-meteor-chat>
-* [Demo website] <http://meteorchat-originate.meteor.com/>
 
 #### meteor-bbs 布告栏
+* [Demo] <https://meteor-bbs.meteor.com>
 * [Code] <https://github.com/chuangbo/meteor-bbs>
-* [Demo website] <https://meteor-bbs.meteor.com>
+
+我自己的改进版本
+* [Demo] <http://maodou-bbs.meteor.com>
+* [Code] <https://github.com/limingth/meteor-bbs>
 
 #### meteor-accounts-qq QQ账户登陆
 * [Code Verified] <https://github.com/yonggao/meteor-accounts-qq>  
 * [Code] <https://github.com/leonzhang1109/meteor-accounts-qq>
 
 #### build-app-45-minutes-meteor Twitter账户登录
-* [code] <http://www.smashingmagazine.com/2013/06/13/build-app-45-minutes-meteor/>
+* [Code] <http://www.smashingmagazine.com/2013/06/13/build-app-45-minutes-meteor/>
+
+#### Send email with Meteor & Mailgun 邮件发送
+* [Demo] <http://krpytonemail.meteor.com/>
+* [Code] <http://blog.ploki.info/send-email-with-meteor-mailgun/>
+
+#### Google map 签到板
+* [Demo] <http://weuse.meteor.com/>
+* [Code] <https://github.com/grigio/meteor-weuse>
+
+我自己的基于上面weuse项目的改进版本
+* [Demo] <http://welearn.meteor.com/>
+* [Code] <https://github.com/limingth/meteor-weuse>
+
+加强版，带照片在地图上
+* [Demo] <http://usermap.meteor.com/>
+* [Code] <https://github.com/gadicc/meteor-usermap>
+
+#### todone 带有标签tag功能的todolist
+* [Meteor自带例子todos] <http://todos.meteor.com/>
+* [Demo webiste] <http://todone.meteor.com/>
+* [code] <https://github.com/foobarbecue/todone>
