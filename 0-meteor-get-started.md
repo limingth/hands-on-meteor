@@ -86,5 +86,15 @@
 
 #### todone 带有标签tag功能的todolist
 * [Meteor自带例子todos] <http://todos.meteor.com/>
-* [Demo webiste] <http://todone.meteor.com/>
+* [Demo] <http://todone.meteor.com/>
 * [code] <https://github.com/foobarbecue/todone>
+
+#### meteor-ionic
+* [Code] <https://github.com/meteoric/meteor-ionic>
+
+#### meteorhunt
+* [Demo] <http://meteorhunt.meteor.com/>
+* [Code] <https://github.com/meteoric/meteorhunt>
+
+#### meteor-useraccounts
+* [Code] <https://github.com/meteor-useraccounts>

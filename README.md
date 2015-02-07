@@ -13,4 +13,5 @@ Learning meteor with Kevin
 * [Chapter 2 : Meteor Framework](2-meteor-framework.md)
 * [Chapter 3 : Meteor Template](3-meteor-template.md)
 * [Chapter 4 : Meteor Router](4-meteor-router.md)
+* [Chapter 5 : Welog Project](5-meteor-welog.md)
 * [Hands-On Project 1 : Discover Meteor Project](Prj1-1-discover-meteor-hello.md)
