@@ -7,8 +7,6 @@
 ### 代码分析
 
 #### layout 框架
-* https://github.com/kevingzhang/welog/blob/master/client/layout.html  
-
 	{{#ionBody}}
 	  {{#ionSideMenuContainer}}
 		  {{#ionSideMenu}}  // default 是左边的 menu，向左拉动可以看到
@@ -25,6 +23,8 @@
 		  {{/ionSideMenuContent}}
 	  {{/ionSideMenuContainer}}
 	{{/ionBody}}
+
+* https://github.com/kevingzhang/welog/blob/master/client/layout.html  
 
 #### contentFor 用法
 	<template name="navigation">
