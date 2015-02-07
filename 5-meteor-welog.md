@@ -26,6 +26,39 @@
 
 * https://github.com/kevingzhang/welog/blob/master/client/layout.html  
 
+#### Router 路由
+	Router.map(function() {
+	  this.route('index', {path: '/'});
+	  this.route('actionSheet');
+	  this.route('backdrop');
+	  this.route('forms', {
+	    data: function () {
+	      return {
+	        post: Posts.find().fetch()[0]
+	      };
+	    }
+	  });
+	  this.route('headersFooters');
+	  this.route('lists');
+	  this.route('loading');
+	  this.route('modal');
+	  this.route('navigation');
+	  this.route('navigation.one', {path: '/navigation/one'});
+	  this.route('navigation.two', {path: '/navigation/two'});
+	  this.route('navigation.three', {path: '/navigation/three'});
+	  this.route('popover');
+	  this.route('popup');
+	  this.route('sideMenu');
+	  this.route('slideBox');
+	  this.route('tabs.one', {path: '/tabs/one', layoutTemplate: 'tabsLayout'});
+	  this.route('tabs.two', {path: '/tabs/two', layoutTemplate: 'tabsLayout'});
+	  this.route('tabs.three', {path: '/tabs/three', layoutTemplate: 'tabsLayout'});
+	  this.route('tabs.four', {path: '/tabs/four', layoutTemplate: 'tabsLayout'});
+	  this.route('userAccounts');
+	});
+
+* https://github.com/kevingzhang/welog/blob/master/both/router.js
+
 #### contentFor 用法
 	<template name="navigation">
 	  {{#contentFor "headerButtonLeft"}}
@@ -57,3 +90,26 @@
 	</template>
 
 * https://github.com/meteoric/meteor-ionic/blob/master/components/ionNavBar/ionNavBar.html
+
+#### ionicframework
+* http://ionicframework.com/
+* http://ionicframework.com/docs/components/#footer
+* http://ionicframework.com/docs/components/#item-thumbnails
+
+#### welog 设计方案
+* 首页进入选择用menu方案，不用tab方案
+* 右上角放一个人头像，虚的表示未登录，实的表示已登录
+* 点击人头像，跳出一个 actionSheet
+  - http://welog.meteor.com/actionSheet
+* 如果登录后，加入 Add blog 功能
+  － http://welog.meteor.com/forms
+* 首页显示blog的 list
+  － http://welog.meteor.com/lists
+* 点击post，看到 viewpost
+  - http://welog.meteor.com/headersFooters
+
+
+
+
+
+
