@@ -8,23 +8,22 @@
 
 #### layout 框架
 * https://github.com/kevingzhang/welog/blob/master/client/layout.html
+	  {{#ionBody}}
+		  {{#ionSideMenuContainer}}
+			  {{#ionSideMenu}}  // default 是左边的 menu，向左拉动可以看到
+			  {{/ionSideMenu}}
 
-  {{#ionBody}}
-	  {{#ionSideMenuContainer}}
-		  {{#ionSideMenu}}  // default 是左边的 menu，向左拉动可以看到
-		  {{/ionSideMenu}}
+			  {{#ionSideMenu side="right"}}  // 右边的 menu，向右拉动可以看到
+			  {{/ionSideMenu}}
 
-		  {{#ionSideMenu side="right"}}  // 右边的 menu，向右拉动可以看到
-		  {{/ionSideMenu}}
-
-		  {{#ionSideMenuContent}}	// 中间的全部区域
-		    {{> ionNavBar class="bar-positive"}}	// 中间的顶部 navbar
-		    {{#ionNavView}}
-		      {{> yield}}			// 根据 route 来确定 render 那个 template
-		    {{/ionNavView}}
-		  {{/ionSideMenuContent}}
-	  {{/ionSideMenuContainer}}
-  {{/ionBody}}
+			  {{#ionSideMenuContent}}	// 中间的全部区域
+			    {{> ionNavBar class="bar-positive"}}	// 中间的顶部 navbar
+			    {{#ionNavView}}
+			      {{> yield}}			// 根据 route 来确定 render 那个 template
+			    {{/ionNavView}}
+			  {{/ionSideMenuContent}}
+		  {{/ionSideMenuContainer}}
+	  {{/ionBody}}
 
 #### contentFor 用法
 	<template name="navigation">
