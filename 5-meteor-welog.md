@@ -104,11 +104,30 @@
 * 如果登录后，加入 Add blog 功能
   - http://welog.meteor.com/forms
 * 首页显示blog的 list
-  － http://welog.meteor.com/lists
+  - http://welog.meteor.com/lists
 * 点击post，看到 viewpost
   - http://welog.meteor.com/headersFooters
 
+#### mongoDB 数据库设计
+* title
+* body
+* _id
+* published
+* time
+* comments
 
+##### 补充功能
+* user 权限
+
+#### seeds.js
+	  if (Posts.find({}).count() === 0) {
+	    Posts.insert({
+	      title: Fake.sentence(),
+	      body: Fake.paragraph(),
+	      published: Fake.fromArray([true, false])
+	    });
+
+* https://github.com/kevingzhang/welog/blob/master/server/seeds.js
 
 
 
