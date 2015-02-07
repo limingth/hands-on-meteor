@@ -102,7 +102,7 @@
 * 点击人头像，跳出一个 actionSheet
   - http://welog.meteor.com/actionSheet
 * 如果登录后，加入 Add blog 功能
-  － http://welog.meteor.com/forms
+  - http://welog.meteor.com/forms
 * 首页显示blog的 list
   － http://welog.meteor.com/lists
 * 点击post，看到 viewpost
