@@ -1,5 +1,5 @@
 
-## 
+## Welog 项目
 
 ### 项目代码库
 * https://github.com/kevingzhang/welog
@@ -129,6 +129,27 @@
 
 * https://github.com/kevingzhang/welog/blob/master/server/seeds.js
 
+#### 添加 username 表项
+	if !Meteor.users.findOne()
+	  Meteor.http.post 'http://api.randomuser.me/?results=20', { dataType: 'json' }, (err, data) ->
+	    err2 = undefined
+	    fakeusers = undefined
+	    msg = undefined
+	    if !err
+	      fakeusers = JSON.parse(data.content).results
+	      try
+	        fakeusers.forEach (user) ->
+	          Meteor.users.insert user.user
+	          return
+	        msg = fakeusers.length + ' users added to Meteor.users'
+	        console.log msg
+	      catch _error
+	        err2 = _error
+	        console.log 'Oops! insert error' + err2
+	    else
+	      console.log err
+	    return   
 
+* https://atmospherejs.com/aldeed/simple-schema
 
-
+* http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html

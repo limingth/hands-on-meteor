@@ -4,6 +4,7 @@
 * [what-is-meteor](https://www.eventedmind.com/classes/getting-started-with-meteor/meteor-what-is-meteor)
 * [what-is-handlerbar](https://www.eventedmind.com/feed/handlebars-how-it-works)
 * [what-is-ironrouter](https://www.eventedmind.com/feed/meteor-ironrouter)
+* [what-is-underscore](http://underscorejs.org/)
 
 ### 2 First demo code from Kevin
 * [Code for meteor101cam] <https://github.com/kevingzhang/meteor101cam>
