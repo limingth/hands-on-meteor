@@ -15,5 +15,5 @@ Learning meteor with Kevin
 * [Chapter 3 : Meteor Template](3-meteor-template.md)
 * [Chapter 4 : Meteor Router](4-meteor-router.md)
 * [Chapter 5 : Welog Project](5-meteor-welog.md)
-* [Chapter 6 : Wechat Project](5-meteor-wechat.md)
+* [Chapter 6 : Wechat Project](6-meteor-wechat.md)
 * [Hands-On Project 1 : Discover Meteor Project](Prj1-1-discover-meteor-hello.md)
