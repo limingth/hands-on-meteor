@@ -196,3 +196,9 @@
 
 #### simple-schema
 * https://atmospherejs.com/aldeed/simple-schema
+
+#### avatar
+* https://github.com/bengott/meteor-avatar/blob/master/export.js
+
+#### momentjs
+* http://momentjs.com/

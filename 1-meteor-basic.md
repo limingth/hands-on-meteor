@@ -172,5 +172,48 @@ http://docs.mongodb.org/manual/
     > Lists.find().fetch()
     [Object_id: "ZMSREPRKvTchnvwnT"incompleteCount: 7name: "Meteor Principles"__proto__: Object__defineGetter__: function __defineGetter__() { [native code] }__defineSetter__: function __defineSetter__() { [native code] }__lookupGetter__: function __lookupGetter__() { [native code] }__lookupSetter__: function __lookupSetter__() { [native code] }constructor: function Object() { [native code] }hasOwnProperty: function hasOwnProperty() { [native code] }isPrototypeOf: function isPrototypeOf() { [native code] }propertyIsEnumerable: function propertyIsEnumerable() { [native code] }toLocaleString: function toLocaleString() { [native code] }toString: function toString() { [native code] }valueOf: function valueOf() { [native code] }get __proto__: function __proto__() { [native code] }set __proto__: function __proto__() { [native code] }
     
+	> db.users.findOne({'profile.login': 'pp2code'}, {limit:10})
+	{ "_id" : "kEGkxCdaiu36Q6dmi" }
+	> db.users.remove({_id: 'kEGkxCdaiu36Q6dmi'}, 1);
+	> db.users.findOne({'profile.login': 'pp2code'}, {limit:10})
+	null
+	> db.users.remove({'profile.login': 'pp2code'});
 
 
+### Complex query string
+http://docs.mongodb.org/manual/reference/method/db.collection.find/
+http://docs.mongodb.org/manual/reference/operator/query/or/#op._S_or
+
+    return Meteor.users.find({
+      $or:
+      [
+        { skills: {
+              $elemMatch: {
+                language: { $regex: RegExp.escape(query), $options: 'i' }
+              }
+            }
+        },
+        { repos: {
+              $elemMatch: {
+                name: { $regex: RegExp.escape(query), $options: 'i' }
+              }
+            }
+        },
+        { repos: {
+              $elemMatch: {
+                description: { $regex: RegExp.escape(query), $options: 'i' }
+              }
+            }
+        },
+        {
+          'profile.name': { $regex: RegExp.escape(query), $options: 'i' }
+        },
+        {
+          'profile.email': { $regex: RegExp.escape(query), $options: 'i' }
+        },
+        {
+          'profile.login': { $regex: RegExp.escape(query), $options: 'i' }
+        }
+      ]
+    });
+  };

@@ -4,6 +4,7 @@ Learning meteor with Kevin
 参考教材： 
 * [Meteor 1.0.3.1 Documentation](http://docs.meteor.com/#/basic/)
 * [Discover Meteor 中文版](http://zh.discovermeteor.com/)
+* [mongodb manual](http://docs.mongodb.org/manual/)
 * [JavaScript: The Good Parts](http://it-ebooks.info/book/274/)
 * [Functional JavaScript](http://it-ebooks.info/book/2573/)
 * [Principles of Object-Oriented Programming in JavaScript](http://www.nczonline.net/blog/2012/12/18/now-available-principles-of-object-oriented-programming-in-javascript-beta/)
