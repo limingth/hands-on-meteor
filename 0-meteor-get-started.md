@@ -46,21 +46,10 @@
 * alt + cmd + u  查看源代码
 
 ### 8 Some repo from Github
-#### coffeescript-chat 聊天室
-* [Demo] <http://coffeescript-chat.meteor.com/>
-* [Code] <https://github.com/tomblomfield/meteor-chat>
 
 #### meteorchat-originate iOS版聊天室
 * [Demo] <http://meteorchat-originate.meteor.com/>
 * [Code] <https://github.com/maxwellE/originate-ios-meteor-chat>
-
-#### meteor-bbs 布告栏
-* [Demo] <https://meteor-bbs.meteor.com>
-* [Code] <https://github.com/chuangbo/meteor-bbs>
-
-我自己的改进版本
-* [Demo] <http://maodou-bbs.meteor.com>
-* [Code] <https://github.com/limingth/meteor-bbs>
 
 #### meteor-accounts-qq QQ账户登陆
 * [Code Verified] <https://github.com/yonggao/meteor-accounts-qq>  
@@ -68,10 +57,6 @@
 
 #### build-app-45-minutes-meteor Twitter账户登录
 * [Code] <http://www.smashingmagazine.com/2013/06/13/build-app-45-minutes-meteor/>
-
-#### Send email with Meteor & Mailgun 邮件发送
-* [Demo] <http://krpytonemail.meteor.com/>
-* [Code] <http://blog.ploki.info/send-email-with-meteor-mailgun/>
 
 #### Google map 签到板
 * [Demo] <http://weuse.meteor.com/>

@@ -9,7 +9,7 @@ Learning meteor with Kevin
 * [Functional JavaScript](http://it-ebooks.info/book/2573/)
 * [Principles of Object-Oriented Programming in JavaScript](http://www.nczonline.net/blog/2012/12/18/now-available-principles-of-object-oriented-programming-in-javascript-beta/)
 
-目录
+章节目录
 * [Chapter 0 : Meteor Get started](0-meteor-get-started.md)
 * [Chapter 1 : Meteor Basic](1-meteor-basic.md)
 * [Chapter 2 : Meteor Framework](2-meteor-framework.md)
@@ -18,3 +18,20 @@ Learning meteor with Kevin
 * [Chapter 5 : Welog Project](5-meteor-welog.md)
 * [Chapter 6 : Wechat Project](6-meteor-wechat.md)
 * [Hands-On Project 1 : Discover Meteor Project](Prj1-1-discover-meteor-hello.md)
+
+项目进阶
+#### Send email with Meteor & Mailgun 邮件发送
+* [Demo] <http://krpytonemail.meteor.com/>
+* [Code] <http://blog.ploki.info/send-email-with-meteor-mailgun/>
+
+#### coffeescript-chat 聊天室
+* [Demo] <http://coffeescript-chat.meteor.com/>
+* [Code] <https://github.com/tomblomfield/meteor-chat>
+
+#### meteor-bbs 布告栏
+* [Demo] <https://meteor-bbs.meteor.com>
+* [Code] <https://github.com/chuangbo/meteor-bbs>
+
+我自己的改进版本
+* [Demo] <http://maodou-bbs.meteor.com>
+* [Code] <https://github.com/limingth/meteor-bbs>
