@@ -36,5 +36,6 @@ Learning meteor with Kevin
   - [Demo] <http://maodou-bbs.meteor.com>
   - [Code] <https://github.com/limingth/meteor-bbs>
 
-* meteor-ionic
+* meteor-ionic 开发自己酷炫的meteor app，从这里开始
+  - [Demo] <http://meteoric.github.io>
   - [Code] <https://github.com/meteoric/meteor-ionic>
