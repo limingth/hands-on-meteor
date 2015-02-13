@@ -75,9 +75,6 @@
 * [Demo] <http://todone.meteor.com/>
 * [code] <https://github.com/foobarbecue/todone>
 
-#### meteor-ionic
-* [Code] <https://github.com/meteoric/meteor-ionic>
-
 #### meteorhunt
 * [Demo] <http://meteorhunt.meteor.com/>
 * [Code] <https://github.com/meteoric/meteorhunt>

@@ -20,18 +20,21 @@ Learning meteor with Kevin
 * [Hands-On Project 1 : Discover Meteor Project](Prj1-1-discover-meteor-hello.md)
 
 项目进阶
-#### Send email with Meteor & Mailgun 邮件发送
-* [Demo] <http://krpytonemail.meteor.com/>
-* [Code] <http://blog.ploki.info/send-email-with-meteor-mailgun/>
+* Send email with Meteor & Mailgun 邮件发送
+  - [Demo] <http://krpytonemail.meteor.com/>
+  - [Code] <http://blog.ploki.info/send-email-with-meteor-mailgun/>
 
-#### coffeescript-chat 聊天室
-* [Demo] <http://coffeescript-chat.meteor.com/>
-* [Code] <https://github.com/tomblomfield/meteor-chat>
+* coffeescript-chat 聊天室
+  - [Demo] <http://coffeescript-chat.meteor.com/>
+  - [Code] <https://github.com/tomblomfield/meteor-chat>
 
-#### meteor-bbs 布告栏
-* [Demo] <https://meteor-bbs.meteor.com>
-* [Code] <https://github.com/chuangbo/meteor-bbs>
+* meteor-bbs 布告栏
+  - [Demo] <https://meteor-bbs.meteor.com>
+  - [Code] <https://github.com/chuangbo/meteor-bbs>
 
-我自己的改进版本
-* [Demo] <http://maodou-bbs.meteor.com>
-* [Code] <https://github.com/limingth/meteor-bbs>
+* maodou-bbs 我自己的改进版本
+  - [Demo] <http://maodou-bbs.meteor.com>
+  - [Code] <https://github.com/limingth/meteor-bbs>
+
+* meteor-ionic
+  - [Code] <https://github.com/meteoric/meteor-ionic>
