@@ -2,6 +2,8 @@
 ## Chapter 0
 ### 1 Basic intro to meteor
 * [what-is-meteor](https://www.eventedmind.com/classes/getting-started-with-meteor/meteor-what-is-meteor)
+* [what-is-coffeescript](http://coffeescript.org/)
+* [how-to-js-2-coffee](http://js2.coffee)
 * [what-is-handlerbar](https://www.eventedmind.com/feed/handlebars-how-it-works)
 * [what-is-ironrouter](https://www.eventedmind.com/feed/meteor-ironrouter)
 * [what-is-underscore](http://underscorejs.org/)
@@ -52,8 +54,9 @@
 * [Code] <https://github.com/maxwellE/originate-ios-meteor-chat>
 
 #### meteor-accounts-qq QQ账户登陆
-* [Code Verified] <https://github.com/yonggao/meteor-accounts-qq>  
-* [Code] <https://github.com/leonzhang1109/meteor-accounts-qq>
+* [New Code Verified] <https://atmospherejs.com/janpo/accounts-qq>
+* [Code Verified, but old version] <https://github.com/yonggao/meteor-accounts-qq>  
+* [Code Totally Wrong, DON'T touch it] <https://github.com/leonzhang1109/meteor-accounts-qq>
 
 #### build-app-45-minutes-meteor Twitter账户登录
 * [Code] <http://www.smashingmagazine.com/2013/06/13/build-app-45-minutes-meteor/>

@@ -21,8 +21,16 @@ Learning meteor with Kevin
 
 项目进阶
 * Send email with Meteor & Mailgun 邮件发送
+  - [Demo] <http://kenneth.meteor.com/>
+  - [Code] <https://github.com/ktransier/meteormail>
+
+* 参考资料
   - [Demo] <http://krpytonemail.meteor.com/>
   - [Code] <http://blog.ploki.info/send-email-with-meteor-mailgun/>
+
+* meteormail 我自己的升级版本
+  - [Demo] <http://maodou-mail.meteor.com>
+  - [Code] <https://github.com/limingth/meteormail>
 
 * coffeescript-chat 聊天室
   - [Demo] <http://coffeescript-chat.meteor.com/>
