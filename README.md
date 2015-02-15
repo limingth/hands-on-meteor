@@ -1,7 +1,7 @@
 # hands-on-meteor
 Learning meteor with Kevin
 
-参考教材： 
+## 参考教材： 
 * [Meteor 1.0.3.1 Documentation](http://docs.meteor.com/#/basic/)
 * [Discover Meteor 中文版](http://zh.discovermeteor.com/)
 * [mongodb manual](http://docs.mongodb.org/manual/)
@@ -9,7 +9,7 @@ Learning meteor with Kevin
 * [Functional JavaScript](http://it-ebooks.info/book/2573/)
 * [Principles of Object-Oriented Programming in JavaScript](http://www.nczonline.net/blog/2012/12/18/now-available-principles-of-object-oriented-programming-in-javascript-beta/)
 
-章节目录
+## 章节目录
 * [Chapter 0 : Meteor Get started](0-meteor-get-started.md)
 * [Chapter 1 : Meteor Basic](1-meteor-basic.md)
 * [Chapter 2 : Meteor Framework](2-meteor-framework.md)
@@ -19,7 +19,8 @@ Learning meteor with Kevin
 * [Chapter 6 : Wechat Project](6-meteor-wechat.md)
 * [Hands-On Project 1 : Discover Meteor Project](Prj1-1-discover-meteor-hello.md)
 
-项目进阶
+## 项目进阶
+### mailer 邮件发送
 * Send email with Meteor & Mailgun 邮件发送
   - [Demo] <http://kenneth.meteor.com/>
   - [Code] <https://github.com/ktransier/meteormail>
@@ -32,10 +33,12 @@ Learning meteor with Kevin
   - [Demo] <http://maodou-mail.meteor.com>
   - [Code] <https://github.com/limingth/meteormail>
 
+### chat 聊天室
 * coffeescript-chat 聊天室
   - [Demo] <http://coffeescript-chat.meteor.com/>
   - [Code] <https://github.com/tomblomfield/meteor-chat>
 
+### bbs 公告栏
 * meteor-bbs 布告栏
   - [Demo] <https://meteor-bbs.meteor.com>
   - [Code] <https://github.com/chuangbo/meteor-bbs>
@@ -44,6 +47,7 @@ Learning meteor with Kevin
   - [Demo] <http://maodou-bbs.meteor.com>
   - [Code] <https://github.com/limingth/meteor-bbs>
 
+### ionic 手机界面
 * meteor-ionic 开发自己酷炫的meteor app，从这里开始
   - [Demo] <http://meteoric.github.io>
   - [Code] <https://github.com/meteoric/meteor-ionic>
