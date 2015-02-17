@@ -37,6 +37,7 @@
 
 ### 6 Git Basics 
 * [Git video from codeschool](http://gitreal.codeschool.com/levels/1)
+* [Git基本使用入门](http://xiazdong.me/2015/01/28/introduction-to-git/)
 * git pull from Bryan and Kevin
   - git remote add kevin https://github.com/kevingzhang/pikpak
   - git remote -v
