@@ -202,3 +202,6 @@
 
 #### momentjs
 * http://momentjs.com/
+
+### Deploy using meteor up
+https://github.com/arunoda/meteor-up
