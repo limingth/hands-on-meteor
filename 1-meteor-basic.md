@@ -174,6 +174,7 @@ http://docs.mongodb.org/manual/
     
 	> db.users.findOne({'profile.login': 'pp2code'}, {limit:10})
 	{ "_id" : "kEGkxCdaiu36Q6dmi" }
+	> db.users.remove({});
 	> db.users.remove({_id: 'kEGkxCdaiu36Q6dmi'}, 1);
 	> db.users.findOne({'profile.login': 'pp2code'}, {limit:10})
 	null
