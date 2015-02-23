@@ -38,6 +38,12 @@ Learning meteor with Kevin
   - [Demo] <http://coffeescript-chat.meteor.com/>
   - [Code] <https://github.com/tomblomfield/meteor-chat>
 
+### 类facebook
+* fakebook 项目
+  - [Demo] <http://maodou-fakebook.meteor.com/>
+  - [Code] <https://github.com/limingth/fakebook>
+  - [Video] <https://www.youtube.com/watch?v=MbZnf9Fa8UE>
+
 ### bbs 公告栏
 * meteor-bbs 布告栏
   - [Demo] <https://meteor-bbs.meteor.com>
