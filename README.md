@@ -18,6 +18,7 @@ Learning meteor with Kevin
 * [Chapter 5 : Welog Project](5-meteor-welog.md)
 * [Chapter 6 : Wechat Project](6-meteor-wechat.md)
 * [Hands-On Project 1 : Discover Meteor Project](Prj1-1-discover-meteor-hello.md)
+* [Hands-On Project 2 : maodou.meteor.com](Prj2-maodou-meteor.md)
 
 ## 项目进阶
 ### mailer 邮件发送
