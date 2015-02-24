@@ -57,3 +57,7 @@ Learning meteor with Kevin
 * meteor-ionic 开发自己酷炫的meteor app，从这里开始
   - [Demo] <http://meteoric.github.io>
   - [Code] <https://github.com/meteoric/meteor-ionic>
+
+## 常用链接
+* http://ionicons.com  查询 ionic 图标
+* http://atmospherejs.com  查询 meteor packages
