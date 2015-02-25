@@ -174,7 +174,9 @@ http://docs.mongodb.org/manual/
     
 	> db.users.findOne({'profile.login': 'pp2code'}, {limit:10})
 	{ "_id" : "kEGkxCdaiu36Q6dmi" }
-	> db.users.remove({});
+	
+	> db.users.remove({});    如果需要对某个 collection 全部删除，()里面必须加入 {}
+	
 	> db.users.remove({_id: 'kEGkxCdaiu36Q6dmi'}, 1);
 	> db.users.findOne({'profile.login': 'pp2code'}, {limit:10})
 	null
