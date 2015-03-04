@@ -34,6 +34,11 @@ Learning meteor with Kevin
   - [Demo] <http://maodou-mail.meteor.com>
   - [Code] <https://github.com/limingth/meteormail>
 
+### leaderboard 排行榜
+* meteor create --example leaderboard
+  - [Demo] <http://maodou-leaderboard.meteor.com>
+  - [Code] <https://github.com/limingth/leaderboard>
+  
 ### chat 聊天室
 * coffeescript-chat 聊天室
   - [Demo] <http://coffeescript-chat.meteor.com/>
