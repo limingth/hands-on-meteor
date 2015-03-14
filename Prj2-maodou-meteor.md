@@ -64,3 +64,7 @@
       }
     });
     
+### Linkedin Login
+    meteor add accounts-ui
+    meteor add pauli:accounts-linkedin
+    meteor add pauli:linkedin
