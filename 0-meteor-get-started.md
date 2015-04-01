@@ -86,3 +86,6 @@
 #### meteor-useraccounts
 * [Code] <https://github.com/meteor-useraccounts>
 
+#### meteor-chat
+* [Demo] <http://bibi.ming.today/>
+* [Code] <https://github.com/kalasoo/meteor-chat>
