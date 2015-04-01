@@ -181,7 +181,8 @@ http://docs.mongodb.org/manual/
 	> db.users.findOne({'profile.login': 'pp2code'}, {limit:10})
 	null
 	> db.users.remove({'profile.login': 'pp2code'});
-
+	> db.players.update({_id:"CWuxjkfuBHyv9cbkX"}, {$inc: {score: -1}});
+	> db.voters.remove({name:"Larry"});
 
 ### Complex query string
 http://docs.mongodb.org/manual/reference/method/db.collection.find/
