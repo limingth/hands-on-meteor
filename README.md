@@ -64,7 +64,19 @@ Learning meteor with Kevin
   - [Demo] <http://meteoric.github.io>
   - [Code] <https://github.com/meteoric/meteor-ionic>
 
+### Kevin 推荐的很酷的界面
+* http://almsaeedstudio.com/themes/AdminLTE/documentation/index.html
+* http://almsaeedstudio.com/themes/AdminLTE/index2.html
+
 ## 常用链接
 * http://js2.coffee/  js语言和coffee语言互换
 * http://ionicons.com  查询 ionic 图标
 * http://atmospherejs.com  查询 meteor packages
+* https://github.com/Slava/tern-meteor-sublime 用Sublime的开发者写js可以用meteor的插件
+* https://www.jetbrains.com/webstorm/help/using-meteor.html 使用webstorm开发meteor的帮助文档
+
+## 参考阅读
+* [对于 meteor 数据这块有疑问的可以看这篇文章](https://medium.com/@stubailo/data-flow-from-the-database-to-the-ui-three-layers-of-meteor-d5e208b466c3)
+* [BUILD WEB APPLICATIONS WITH METEOR] <http://www.meteortuts.com/>
+* <http://www.manuel-schoebel.com/blog/iron-router-tutorial >
+* http://meteortips.com/tutorial/custom-registration-form/  accounts-ui定制化的方法
