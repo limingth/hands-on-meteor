@@ -80,3 +80,4 @@ Learning meteor with Kevin
 * [BUILD WEB APPLICATIONS WITH METEOR] <http://www.meteortuts.com/>
 * <http://www.manuel-schoebel.com/blog/iron-router-tutorial >
 * http://meteortips.com/tutorial/custom-registration-form/  accounts-ui定制化的方法
+* [Hacker News about meteor](https://hn.algolia.com/?query=meteor&sort=byDate&prefix&page=0&dateRange=all&type=story)
