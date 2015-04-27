@@ -59,6 +59,11 @@ Learning meteor with Kevin
   - [Demo] <http://maodou-bbs.meteor.com>
   - [Code] <https://github.com/limingth/meteor-bbs>
 
+### 产品发布平台
+* crowducate
+  - [Demo] <http://crowducate.me/>
+  - [Code] <https://github.com/Crowducate/crowducate-next>
+
 ### ionic 手机界面
 * meteor-ionic 开发自己酷炫的meteor app，从这里开始
   - [Demo] <http://meteoric.github.io>
