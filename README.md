@@ -69,6 +69,11 @@ Learning meteor with Kevin
   - [Code] <https://github.com/reactioncommerce/reaction>
   - [Team] <http://reactioncommerce.com>
 
+### 旅行网站
+* wanderlust
+  - [Demo] <http://mywanderlust.co/>
+  - [Code] <https://github.com/andreioprisan/meteor-travel>
+
 ### ionic 手机界面
 * meteor-ionic 开发自己酷炫的meteor app，从这里开始
   - [Demo] <http://meteoric.github.io>
