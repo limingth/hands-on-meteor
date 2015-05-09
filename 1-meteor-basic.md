@@ -183,10 +183,13 @@ http://docs.mongodb.org/manual/
 	> db.users.remove({'profile.login': 'pp2code'});
 	> db.players.update({_id:"CWuxjkfuBHyv9cbkX"}, {$inc: {score: -1}});
 	> db.voters.remove({name:"Larry"});
+	> db.lessons.find({name:{ $in:["hello", "world"]}})
+	> db.lessons.find({name: {$regex: /^meteor*/}})
 
 ### Complex query string
 http://docs.mongodb.org/manual/reference/method/db.collection.find/
 http://docs.mongodb.org/manual/reference/operator/query/or/#op._S_or
+http://docs.mongodb.org/manual/reference/operator/query/regex/#syntax-restrictions
 
     return Meteor.users.find({
       $or:
